@@ -1,0 +1,39 @@
+.hero-section {
+    background-color: #85bff2;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .get-started-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #0056b3;
+  }
+  

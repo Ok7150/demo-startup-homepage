@@ -1,0 +1,43 @@
+.search-filters {
+    background-color: #85bff2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-filters p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .search-filters select{
+    width: 40%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-filters label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .search-filters {
+      padding: 10px;
+    }
+  
+    .search-filters input[type="text"],
+    .search-filters select {
+      font-size: 14px;
+    }
+  
+    .search-filters label {
+      font-size: 16px;
+    }
+  }
+  

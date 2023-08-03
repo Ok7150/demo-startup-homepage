@@ -1,0 +1,51 @@
+.why-choose-us {
+    padding: 50px 0;
+    background-color: #85bff2;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .why-choose-us__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .why-choose-us__item {
+    background-color: #e8dada;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .why-choose-us__item i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .why-choose-us__item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .why-choose-us__item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .why-choose-us__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

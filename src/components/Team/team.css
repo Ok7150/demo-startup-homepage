@@ -1,0 +1,46 @@
+/* Container for the team section */
+.meet-the-team {
+    background-color: #85bff2;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  /* Team members container (flexbox) */
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Team member card */
+  .team-member {
+    width: 300px;
+    padding: 20px;
+    background-color: #e8dada;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Team member image */
+  .team-member img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .team-member {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .team-member {
+      width: 80%;
+    }
+  }
+  

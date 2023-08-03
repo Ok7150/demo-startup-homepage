@@ -1,0 +1,50 @@
+/* Updated CSS for the HowItWorks component with background color */
+
+.how-it-works-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #85bff2; /* Alice Blue */
+  }
+  
+  .how-it-works-container h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .step-icon {
+    background-color: #007bff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .step-content {
+    margin-left: 20px;
+  }
+  
+  .step-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .step-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

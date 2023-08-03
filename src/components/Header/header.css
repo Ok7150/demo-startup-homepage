@@ -1,0 +1,70 @@
+/* Base styles for the header */
+.header {
+    background-color: #181616;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-name {
+    margin-bottom: 8px;
+    font-size: 2.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #ff9900; /* Change the color on hover as needed */
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  /* For mobile devices */
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    .company-name {
+      font-size: 1.2rem;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .nav-item:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
