@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About/about";
 import FeaturedJobs from "./components/FeaturedJobs/featuredJobs";
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
@@ -59,6 +60,7 @@ function App() {
         <FeaturedJobs jobs={featuredJobsData}/>
         <WhyChooseUs/>
         <Team/>
+        <About/>
       </main>
       <Footer/>
     </div>

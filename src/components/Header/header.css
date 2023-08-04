@@ -38,7 +38,8 @@
   }
   
   .nav-item a:hover {
-    color: #ff9900; /* Change the color on hover as needed */
+    color: #ff9900;
+    cursor: pointer;  
   }
   
   /* Media Queries for Responsive Design */

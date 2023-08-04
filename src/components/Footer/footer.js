@@ -7,21 +7,21 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-contact">
-          <h3>Contact Us</h3>
+          <h2>Contact Us</h2>
           <p>Email: contact@example.com</p>
           <p>Phone: +1 123-456-7890</p>
         </div>
         <div className="footer-social">
-          <h3>Follow Us</h3>
+          <h2>Follow Us</h2>
           <div className="social-icons">
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="icon" />
+              <FaInstagram className="icon instagram" />
             </a>
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="icon" />
+              <FaTwitter className="icon twitter" />
             </a>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="icon" />
+              <FaFacebook className="icon facebook" />
             </a>
           </div>
         </div>

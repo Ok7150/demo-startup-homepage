@@ -34,6 +34,24 @@ body {
   color: #61dafb;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #85bff2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,31 @@
+.about-content {
+    background-color: #85bff2;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .about-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .about-content {
+      padding: 20px;
+    }
+  
+    .about-content h2 {
+      font-size: 24px;
+    }
+  
+    .about-content p {
+      font-size: 14px;
+    }
+  }
+  
